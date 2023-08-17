@@ -1,0 +1,82 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #ff029e;
+}
+
+main {
+    background-color: rgb(255, 176, 220);
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 400px;
+}
+
+.resume {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.resume div {
+    margin-bottom: 10px;
+}
+
+.resume span {
+    font-weight: bold;
+    color: #333;
+}
+
+.newItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.divDesc, .divAmount, .divType {
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #ff029e;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+.columnAmount, .columnType, .columnAction {
+    text-align: center;
+}
