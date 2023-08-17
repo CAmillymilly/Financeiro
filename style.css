@@ -1,3 +1,4 @@
+/* estiliza o body */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -8,7 +9,7 @@ body {
     min-height: 100vh;
     background-color: #ff029e;
 }
-
+/* muda o quadrado */
 main {
     background-color: rgb(255, 176, 220);
     border-radius: 10px;
